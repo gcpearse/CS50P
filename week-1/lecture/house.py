@@ -1,16 +1,17 @@
 def main():
   name = input("Enter your name: ").title()
-  choose_house(name)
+  result = choose_house(name)
+  print(result)
 
 
 def choose_house(name):
   match name:
     case "Harry" | "Ron" | "Hermione":
-      print("Gryffindor")
+      return "Gryffindor"
     case "Draco":
-      print("Slytherin")
+      return "Slytherin"
     case _:
-      print("Who?")
+      return "Who?"
 
 
 main()

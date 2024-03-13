@@ -1,19 +1,20 @@
 def main():
   score = int(input("Enter score out of 100: "))
-  set_grade(score)
+  result = set_grade(score)
+  print(result)
 
 
 def set_grade(score):
   if score >= 90:
-    print("Grade: A")
+    return "Grade: A"
   elif score >= 80:
-    print("Grade: B")
+    return "Grade: B"
   elif score >= 70:
-    print("Grade: C")
+    return "Grade: C"
   elif score >= 60:
-    print("Grade: D")
+    return "Grade: D"
   else:
-    print("Grade: F")
+    return "Grade: F"
 
 
 main()
