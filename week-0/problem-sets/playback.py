@@ -5,12 +5,13 @@
 
 def main():
   text = input("Enter two or more words: ")
-  pause_between_words(text)
+  result = pause_between_words(text)
+  print(result)
 
 
 def pause_between_words(text):
   words = text.split(" ")
-  print("...".join(words))
+  return "...".join(words)
 
 
 main()

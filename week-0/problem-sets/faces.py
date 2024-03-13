@@ -5,13 +5,14 @@
 
 def main():
   text = input("Enter some text with emoticons: ")
-  convert_emoticons(text)
+  result = convert_emoticons(text)
+  print(result)
 
 
 def convert_emoticons(text):
   text = text.replace(":)", "🙂")
   text = text.replace(":(", "🙁")
-  print(text)
+  return text
 
 
 main()

@@ -4,11 +4,12 @@
 
 def main():
   text = input("Enter some capitalised text: ")
-  convert_to_lowercase(text)
+  result = convert_to_lowercase(text)
+  print(result)
 
 
 def convert_to_lowercase(text):
-  print(text.lower())
+  return text.lower()
 
 
 main()

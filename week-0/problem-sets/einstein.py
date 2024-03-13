@@ -5,12 +5,13 @@
 
 def main():
   mass = int(input("Enter a number: "))
-  convert_mass_to_energy(mass)
+  result = convert_mass_to_energy(mass)
+  print(result)
 
 
 def convert_mass_to_energy(m):
   e = m * pow(300000000, 2)
-  print(e)
+  return e
 
 
 main()
