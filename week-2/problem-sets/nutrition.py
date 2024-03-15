@@ -3,6 +3,7 @@
 # If the item matches a fruit, output the number of calories
 # Otherwise, output nothing
 
+
 fruit = {
   "apple": 130,
   "avocado": 50,
