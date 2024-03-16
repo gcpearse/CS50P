@@ -12,12 +12,7 @@
 
 def main():
   percentage = get_fuel_level()
-  if percentage >= 99:
-    print("Full")
-  elif percentage <= 1:
-    print("Empty")
-  else:
-    print(f"{percentage}%")
+  print_fuel_level(percentage)
 
 
 def get_fuel_level():
@@ -34,7 +29,16 @@ def get_fuel_level():
     except ValueError:
       print("Invalid fraction")
     except ZeroDivisionError:
-      print("Cannot divide by zero.")
+      print("Cannot divide by zero")
+
+
+def print_fuel_level(percentage):
+  if percentage >= 99:
+    print("Full")
+  elif percentage <= 1:
+    print("Empty")
+  else:
+    print(f"{percentage}%")
 
 
 main()
