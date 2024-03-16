@@ -1,3 +1,11 @@
+# Prompt the user for an item
+# If the item is on the menu, update the total
+# Display the updated total after each order
+# The total should match the format $##.##
+# Allow the user to exit by entering CTRL + D
+# Display the final total when the user exits
+
+
 dishes = {
   "Baja Taco": 4.25,
   "Burrito": 7.50,
