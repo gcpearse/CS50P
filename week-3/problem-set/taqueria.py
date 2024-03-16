@@ -20,14 +20,13 @@ def handle_order():
   while True:
     try:
       item = get_item()
-      total += dishes[item]
+      if item in dishes:
+        total += dishes[item]
       print_total(total)
-    except KeyError:
-      if item == "Control-D":
-        break
-      else:
-        print_total(total)
-        pass
+    except EOFError:
+      print()
+      print_total(total)
+      break
 
 
 def get_item():
