@@ -5,11 +5,11 @@ def main():
   say_hello(first_name, surname)
 
 
-def format_names(names):
+def format_names(names: str):
   return names.strip().title()
 
 
-def separate_names(names):
+def separate_names(names: str):
   return names.split(" ")
 
 
