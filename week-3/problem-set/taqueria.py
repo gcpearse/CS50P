@@ -5,7 +5,6 @@
 # Allow the user to exit by entering CTRL + D
 # Display the final total when the user exits
 
-
 dishes = {
   "Baja Taco": 4.25,
   "Burrito": 7.50,
@@ -45,4 +44,5 @@ def print_total(total):
   print(f"Total: ${total:.2f}")
 
 
-main()
+if __name__ == "__main__":
+  main()

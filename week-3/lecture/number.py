@@ -11,4 +11,5 @@ def get_int(prompt):
       pass
 
 
-main()
+if __name__ == "__main__":
+  main()

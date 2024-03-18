@@ -41,4 +41,5 @@ def print_fuel_level(percentage):
     print(f"{percentage}%")
 
 
-main()
+if __name__ == "__main__":
+  main()

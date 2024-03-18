@@ -5,7 +5,6 @@
 # If the input is invalid, prompt the user again
 # Assume that every month has a maximum of 31 days
 
-
 months = [
   "January",
   "February",
@@ -61,4 +60,5 @@ def format_date():
       pass
 
 
-main()
+if __name__ == "__main__":
+  main()

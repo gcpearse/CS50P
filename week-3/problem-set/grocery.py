@@ -36,4 +36,5 @@ def print_groceries(groceries):
     print(f"{groceries[item]} {item}")
 
 
-main()
+if __name__ == "__main__":
+  main()
