@@ -1,3 +1,11 @@
+# Install the inflect module with pip
+# Prompt the user for a name
+# Repeat until the user enters CTRL + D
+# Bid adieu to the names in the list
+# Separate two names with a single "and"
+# Separate 3 or more names with the Oxford comma
+# Output the result
+
 import inflect
 
 p = inflect.engine()
@@ -25,8 +33,11 @@ def get_input():
 
 
 def say_adieu(names):
-  joined_names = p.join(names)
-  print(f"Adieu, adieu, to {joined_names}")
+  if len(names):
+    joined_names = p.join(names)
+    print(f"Adieu, adieu, to {joined_names}!")
+  else:
+    print("Adieu!")
 
 
 main()

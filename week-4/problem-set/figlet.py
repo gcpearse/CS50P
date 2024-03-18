@@ -1,3 +1,13 @@
+# Install the pyfiglet module with pip
+# Expect 0 or 2 command-line arguments
+# If 0 args, output text in a random font
+# If 2 args, output text in a specific font
+# The first arg should be -f or --font
+# The second arg should be the name of a font
+# Handle errors via sys.exit with an error message
+# Prompt the user for input
+# Output the result in the desired font
+
 from pyfiglet import Figlet
 import random
 import sys
