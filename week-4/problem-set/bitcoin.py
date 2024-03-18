@@ -17,7 +17,7 @@ def main():
     sys.exit("Too many command-line arguments")
   n = get_number()
   bpi_usd = get_bitcoin_price(base_url)
-  res = get_usd_price(n, bpi_usd)
+  res = convert_to_usd(n, bpi_usd)
   print(res)
 
 
@@ -34,7 +34,7 @@ def get_bitcoin_price(url):
   return response["bpi"]["USD"]["rate_float"]
 
 
-def get_usd_price(n, bpi_usd):
+def convert_to_usd(n, bpi_usd):
   price = n * bpi_usd
   return f"${price:,.4f}"
   
