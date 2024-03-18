@@ -3,7 +3,11 @@
 # Randomly generate 10 maths problems
 # Format each problem as X + Y =
 # X and Y should be non-negative integers with n digits
-
+# Prompt the user to solve each problem
+# If the answer is incorrect or invalid, output EEE
+# Allow the user up to 3 attempts
+# After 3 attempts, output the correct answer
+# Output the user's score out of 10 at the end of the game
 
 import random
 
