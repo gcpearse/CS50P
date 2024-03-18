@@ -19,4 +19,5 @@ def format_percentage(percentage: str):
   return float(percentage.rstrip("%")) / 100
 
 
-main()
+if __name__ == "__main__":
+  main()

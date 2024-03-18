@@ -12,4 +12,5 @@ def convert_to_lowercase(text):
   return text.lower()
 
 
-main()
+if __name__ == "__main__":
+  main()

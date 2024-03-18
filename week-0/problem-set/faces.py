@@ -15,4 +15,5 @@ def convert_emoticons(text):
   return text
 
 
-main()
+if __name__ == "__main__":
+  main()

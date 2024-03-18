@@ -13,5 +13,5 @@ def convert_mass_to_energy(m):
   e = m * pow(300000000, 2)
   return e
 
-
-main()
+if __name__ == "__main__":
+  main()

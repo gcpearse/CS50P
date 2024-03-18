@@ -17,4 +17,5 @@ def say_hello(first_name, surname):
   print(f"Hello, {first_name} {surname}!")
 
 
-main()
+if __name__ == "__main__":
+  main()

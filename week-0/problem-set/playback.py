@@ -14,4 +14,5 @@ def pause_between_words(text):
   return "...".join(words)
 
 
-main()
+if __name__ == "__main__":
+  main()
