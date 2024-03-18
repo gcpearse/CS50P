@@ -20,4 +20,5 @@ def handle_payment():
     print(f"Change owed: {0 - amount_due}")
 
 
-main()
+if __name__ == "__main__":
+  main()

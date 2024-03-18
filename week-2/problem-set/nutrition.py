@@ -41,4 +41,5 @@ def get_calories(item):
       return fruit[key]
     
 
-main()
+if __name__ == "__main__":
+  main()

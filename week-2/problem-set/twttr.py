@@ -19,4 +19,5 @@ def remove_vowels(text: str):
   return res
 
 
-main()
+if __name__ == "__main__":
+  main()

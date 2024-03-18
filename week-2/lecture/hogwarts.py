@@ -53,4 +53,5 @@ def parse_dict():
     )
 
 
-main()
+if __name__ == "__main__":
+  main()

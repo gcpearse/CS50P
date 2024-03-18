@@ -19,4 +19,5 @@ def convert_to_snake_case(var: str):
   return res
 
 
-main()
+if __name__ == "__main__":
+  main()
