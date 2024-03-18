@@ -25,8 +25,8 @@ def get_input():
 
 
 def say_adieu(names):
-  sentence = p.join(names)
-  print(f"Adieu, adieu, to {sentence}")
+  joined_names = p.join(names)
+  print(f"Adieu, adieu, to {joined_names}")
 
 
 main()
