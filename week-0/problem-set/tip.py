@@ -1,7 +1,7 @@
-# Prompt the user for the cost of a meal.
-# Prompt the user for a tip percentage.
-# For each input, remove special characters and convert to a float.
-# Calculate the tip amount and output the result.
+# Prompt the user for the cost of a meal
+# Prompt the user for a tip percentage
+# For each input, remove special characters and convert to a float
+# Calculate the tip amount and output the result
 
 
 def main():

@@ -1,6 +1,6 @@
-# Prompt the user for text input including emoticons.
-# Replace each :) and :( with an emoji.
-# Output the result.
+# Prompt the user for text input including emoticons
+# Replace each :) and :( with an emoji
+# Output the result
 
 
 def main():

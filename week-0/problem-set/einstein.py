@@ -1,6 +1,6 @@
-# Prompt the user for input of a mass in kilograms.
-# Convert that mass into energy using Einstein's formula.
-# Output the result.
+# Prompt the user for input of a mass in kilograms
+# Convert that mass into energy using Einstein's formula
+# Output the result
 
 
 def main():

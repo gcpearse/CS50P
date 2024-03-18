@@ -1,5 +1,5 @@
-# Prompt the user for capitalised text input.
-# Output the result in lowercase.
+# Prompt the user for capitalised text input
+# Output the result in lowercase
 
 
 def main():

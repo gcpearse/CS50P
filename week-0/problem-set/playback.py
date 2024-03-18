@@ -1,6 +1,6 @@
-# Prompt the user for input of two or more words.
-# Replace each space with an ellipsis.
-# Output the result.
+# Prompt the user for input of two or more words
+# Replace each space with an ellipsis
+# Output the result
 
 
 def main():
