@@ -13,6 +13,7 @@ def get_data(baseUrl):
   if (len(sys.argv)) != 2:
     sys.exit()
   response = requests.get(f"{baseUrl}/{sys.argv[1]}")
+  print(f"Status code: {response.status_code}")
   return response.json()
 
 
