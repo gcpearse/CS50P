@@ -20,4 +20,5 @@ def convert_to_emoji(text):
   return emoji.emojize(text)
 
 
-main()
+if __name__ == "__main__":
+  main()

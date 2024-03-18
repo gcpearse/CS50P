@@ -40,4 +40,5 @@ def say_adieu(names):
     print("Adieu!")
 
 
-main()
+if __name__ == "__main__":
+  main()

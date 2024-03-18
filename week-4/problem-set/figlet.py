@@ -50,4 +50,5 @@ def output_text():
   print(figlet.renderText(text))
 
 
-main()
+if __name__ == "__main__":
+  main()

@@ -26,4 +26,5 @@ def print_data(response):
     print("Invalid argument")
 
 
-main()
+if __name__ == "__main__":
+  main()

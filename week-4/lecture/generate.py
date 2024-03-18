@@ -23,4 +23,5 @@ def shuffle_cards(cards):
   print(", ".join(cards))
 
 
-main()
+if __name__ == "__main__":
+  main()

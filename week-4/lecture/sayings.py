@@ -11,6 +11,5 @@ def say_goodbye(name):
   print(f"Goodbye, {name}!")
 
 
-# Prevent main() from being called from another file
 if __name__ == "__main__":
   main()
