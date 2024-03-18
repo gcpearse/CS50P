@@ -10,4 +10,5 @@ def check_is_odd(n):
   return n % 2
 
 
-main()
+if __name__ == "__main__":
+  main()

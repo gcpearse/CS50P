@@ -11,4 +11,5 @@ def check_equality(x, y):
   return x == y
 
 
-main()
+if __name__ == "__main__":
+  main()

@@ -17,4 +17,5 @@ def set_grade(score):
     return "Grade: F"
 
 
-main()
+if __name__ == "__main__":
+  main()

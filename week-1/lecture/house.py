@@ -14,4 +14,5 @@ def choose_house(name):
       return "Who?"
 
 
-main()
+if __name__ == "__main__":
+  main()

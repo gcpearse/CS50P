@@ -22,4 +22,5 @@ def handle_greeting(greeting: str):
     return "$100"
 
 
-main()
+if __name__ == "__main__":
+  main()

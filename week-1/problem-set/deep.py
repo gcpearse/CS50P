@@ -1,6 +1,6 @@
-# Prompt the user for an answer.
-# If the input is 42, forty-two, or forty two, output Yes.
-# Otherwise, output No.
+# Prompt the user for an answer
+# If the input is 42, forty-two, or forty two, output Yes
+# Otherwise, output No
 
 
 def main():
@@ -19,4 +19,5 @@ def check_answer(answer):
       return False
 
 
-main()
+if __name__ == "__main__":
+  main()

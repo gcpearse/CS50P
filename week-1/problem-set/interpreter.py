@@ -1,6 +1,6 @@
 # Prompt the user for an arithmetic expression
 # Output the result as floating-point value
-# Ensure the result is rounded to 1dp
+# Ensure the result is rounded to 1 decimal place
 
 
 def main():
@@ -25,4 +25,5 @@ def calculate(expression: str):
   return round(result, 1)
 
 
-main()
+if __name__ == "__main__":
+  main()

@@ -29,4 +29,5 @@ def set_media_type(file_name: str):
     return "application/octet-stream"
 
 
-main()
+if __name__ == "__main__":
+  main()

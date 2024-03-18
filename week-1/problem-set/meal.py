@@ -36,4 +36,5 @@ def convert(time: str):
   return hours + minutes
 
 
-main()
+if __name__ == "__main__":
+  main()
