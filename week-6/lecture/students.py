@@ -11,6 +11,7 @@ def add_students_from_file():
   with open("students.csv") as file:
     reader = csv.DictReader(file)
     for row in reader:
+      # students.append(row) also works
       students.append({
         "name": row["name"],
         "house": row["house"],
