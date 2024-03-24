@@ -25,4 +25,5 @@ def print_student_info(students):
     print(f"{student['name']} is from {student['home']}.")
 
 
-main()
+if __name__ == "__main__":
+  main()
