@@ -10,7 +10,7 @@ import sys
 
 
 def main():
-  handle_cli_input()
+  print(handle_cli_input())
 
 
 def handle_cli_input():
@@ -22,7 +22,7 @@ def handle_cli_input():
     if not sys.argv[1].endswith(".py"):
       sys.exit("Not a Python file")
     else:
-      count_lines()
+      return count_lines()
 
 
 def count_lines():
@@ -37,7 +37,7 @@ def count_lines():
           continue
         else:
           count += 1
-      print(count)
+      return count
   except FileNotFoundError:
     sys.exit("File does not exist")
 
