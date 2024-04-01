@@ -1,5 +1,5 @@
 # Expect an IPv4 address as input from the user
-# Return True is the input is a valid IPv4 address
+# Return True if the input is a valid IPv4 address
 # Otherwise, return False
 
 import re
