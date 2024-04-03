@@ -23,7 +23,8 @@ def test_valid_mixed_format():
 def test_invalid_format():
   invalid_formats = [
     "9 AM - 5 PM",
-    "09:00 AM - 17:00 PM"
+    "09:00 AM - 17:00 PM",
+    "9: AM - 5: PM"
   ]
   for format in invalid_formats:
     with pytest.raises(ValueError):
