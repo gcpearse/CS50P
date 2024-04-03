@@ -2,6 +2,7 @@
 # Assume the format will match one of these options:
 # 9:00 AM to 5:00 PM
 # 9 AM to 5 PM
+# Return the corresponding 24-hour format (i.e. 09:00 to 17:00)
 # Raise a ValueError in the following cases:
 # The input does not match the valid formats
 # The time is invalid (e.g. 12:60 AM)
