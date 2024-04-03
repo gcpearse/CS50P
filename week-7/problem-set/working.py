@@ -19,17 +19,17 @@ def get_hours():
 
 
 def convert(hours):
-  matches = re.search(r"^([1-9]|1[0-2]):?([0-5][0-9])? (AM|PM) to ([1-9]|1[0-2]):?([0-5][0-9])? (AM|PM)$", hours)
+  matches = re.search(r"^([1-9]|1[0-2])(:[0-5][0-9])? (AM|PM) to ([1-9]|1[0-2])(:[0-5][0-9])? (AM|PM)$", hours)
   if matches:
     start_hours = matches.group(1)
-    start_minutes = matches.group(2) or "00"
+    start_minutes = matches.group(2) or ":00"
     end_hours = matches.group(4)
-    end_minutes = matches.group(5) or "00"
+    end_minutes = matches.group(5) or ":00"
     if matches.group(3) == "PM":
       start_hours = str(int(matches.group(1)) + 12)
     if matches.group(6) == "PM":
       end_hours = str(int(matches.group(4)) + 12)
-    return f"{int(start_hours):02}:{start_minutes} to {int(end_hours):02}:{end_minutes}"
+    return f"{int(start_hours):02}{start_minutes} to {int(end_hours):02}{end_minutes}"
   else:
     raise ValueError
 
