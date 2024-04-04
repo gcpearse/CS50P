@@ -6,6 +6,12 @@ class Student:
   def __str__(self):
     return f"{self.name} is in {self.house}."
   
+  @classmethod
+  def get(cls):
+    name = input("Name: ").strip().title()
+    house = input("House: ").strip().title()
+    return cls(name, house)
+  
   # Getter
   @property
   def name(self):
@@ -35,14 +41,7 @@ class Student:
 
 
 def main():
-  student = get_student()
-  print(student)
-
-
-def get_student():
-  name = input("Name: ").strip().title()
-  house = input("House: ").strip().title()
-  return Student(name, house)
+  print(Student.get())
 
 
 if __name__ == "__main__":
