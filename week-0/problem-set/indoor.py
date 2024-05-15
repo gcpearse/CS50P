@@ -8,7 +8,7 @@ def main():
   print(result)
 
 
-def convert_to_lowercase(text):
+def convert_to_lowercase(text: str):
   return text.lower()
 
 
