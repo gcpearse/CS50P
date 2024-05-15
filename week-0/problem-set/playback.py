@@ -9,7 +9,7 @@ def main():
   print(result)
 
 
-def pause_between_words(text):
+def pause_between_words(text: str):
   words = text.split(" ")
   return "...".join(words)
 
