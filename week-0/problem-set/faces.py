@@ -9,7 +9,7 @@ def main():
   print(result)
 
 
-def convert_emoticons(text):
+def convert_emoticons(text: str):
   text = text.replace(":)", "🙂")
   text = text.replace(":(", "🙁")
   return text
