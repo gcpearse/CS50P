@@ -51,14 +51,8 @@ urllib3            2.2.1
 ### Updated Global Packages 22.08.2024
 
 ```txt
-annotated-types 0.6.0
-mypy            1.9.0
-mypy-extensions 1.0.0
-pip             24.2
-pydantic        2.6.4
-pydantic_core   2.16.3
-setuptools      65.5.0
-tabulate        0.9.0
+pip               24.2
+setuptools        65.5.0
 ```
 
 ### Local Packages 22.08.2024
@@ -71,6 +65,8 @@ idna               3.7
 inflect            7.3.1
 iniconfig          2.0.0
 more-itertools     10.4.0
+mypy               1.11.1
+mypy-extensions    1.0.0
 packaging          24.1
 pip                24.2
 pluggy             1.5.0
